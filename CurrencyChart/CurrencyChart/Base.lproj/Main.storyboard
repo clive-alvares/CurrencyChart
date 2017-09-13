@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,93 +18,9 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y42-lq-Jie">
-                                <rect key="frame" x="16" y="122" width="350" height="500"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bZL-UL-F30">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cvJ-6v-AzY">
-                                                <rect key="frame" x="24" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A11-G3-pZu">
-                                                <rect key="frame" x="54" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nax-Vp-beQ">
-                                                <rect key="frame" x="84" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLx-xN-Zh8">
-                                                <rect key="frame" x="114" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9O-YC-3KO">
-                                                <rect key="frame" x="144" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgZ-0v-XaQ">
-                                                <rect key="frame" x="174" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9c-qd-na4">
-                                                <rect key="frame" x="204" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-jp-mJu">
-                                                <rect key="frame" x="234" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PbD-sl-6sD">
-                                                <rect key="frame" x="264" y="13" width="22" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FW8-gi-Wkk">
-                                        <rect key="frame" x="0.0" y="50" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9W1-Yo-tOS">
-                                        <rect key="frame" x="0.0" y="100" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kJp-tP-PuZ">
-                                        <rect key="frame" x="0.0" y="150" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="epm-O6-rHf">
-                                        <rect key="frame" x="0.0" y="200" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqN-w6-2Z6">
-                                        <rect key="frame" x="0.0" y="250" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0NL-zl-2cn">
-                                        <rect key="frame" x="0.0" y="300" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-HK-hsS">
-                                        <rect key="frame" x="0.0" y="350" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9wS-Lt-etk">
-                                        <rect key="frame" x="0.0" y="400" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3xV-VR-i6b">
-                                        <rect key="frame" x="0.0" y="450" width="350" height="50"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D48-kM-3MQ" customClass="RoundButton" customModule="CurrencyChart" customModuleProvider="target">
                                 <rect key="frame" x="79" y="66" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -168,6 +84,494 @@
                                     <color key="titleColor" red="0.98892266567998743" green="1" blue="0.97745676421234384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y42-lq-Jie">
+                                <rect key="frame" x="31" y="160" width="350" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bZL-UL-F30">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-Ed-GLL">
+                                                <rect key="frame" x="174" y="9" width="30" height="33.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="euroFlag" translatesAutoresizingMaskIntoConstraints="NO" id="8Am-rK-XCS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="30" id="1ce-kq-gjP"/>
+                                                            <constraint firstAttribute="height" constant="18" id="Mud-c5-3v9"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="EUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6f-np-Ycy">
+                                                        <rect key="frame" x="0.0" y="18" width="30" height="15.666666666666664"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vTV-2k-W7X">
+                                                <rect key="frame" x="234" y="9" width="30" height="33.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="unitedFlag" translatesAutoresizingMaskIntoConstraints="NO" id="CxF-js-i4k">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="18" id="xzP-uY-hlu"/>
+                                                            <constraint firstAttribute="width" constant="30" id="zPC-2X-dDq"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GBP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22C-Nf-nbp">
+                                                        <rect key="frame" x="0.0" y="18" width="30" height="15.666666666666664"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gCu-Yu-cR4">
+                                                <rect key="frame" x="295" y="9" width="30" height="33.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="indFlag" translatesAutoresizingMaskIntoConstraints="NO" id="MBH-Zb-X0t">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="30" id="2dp-Am-cQv"/>
+                                                            <constraint firstAttribute="height" constant="18" id="L39-eQ-nGr"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="INR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltS-cb-EYp">
+                                                        <rect key="frame" x="0.0" y="18" width="30" height="15.666666666666664"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sGY-4O-Z1w">
+                                                <rect key="frame" x="115" y="9" width="30" height="33.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="amerFlag" translatesAutoresizingMaskIntoConstraints="NO" id="A11-G3-pZu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="30" id="Q8J-CF-ZSH"/>
+                                                            <constraint firstAttribute="height" constant="18" id="tIH-X7-8gR"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Dt-fO-MKz">
+                                                        <rect key="frame" x="0.0" y="18" width="30" height="15.666666666666664"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FW8-gi-Wkk">
+                                        <rect key="frame" x="0.0" y="50" width="350" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M5I-5u-Q7b">
+                                                <rect key="frame" x="46" y="0.99999999999999645" width="56.666666666666664" height="39.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWM-jA-1Kq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Inverse:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdI-9b-vSH">
+                                                        <rect key="frame" x="0.0" y="20.333333333333336" width="56.666666666666664" height="19.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XoW-eF-iBL">
+                                                <rect key="frame" x="168" y="7.9999999999999982" width="50.666666666666664" height="31.333333333333332"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.83970" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3V-NY-p6O">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.19090" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqT-p0-M9a">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="50.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DGc-S4-U1u">
+                                                <rect key="frame" x="228" y="7.9999999999999982" width="51" height="31.333333333333332"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.75536" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U94-pU-wOo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.32388" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkL-qt-o2C">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="51" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageView:0xn-SS-Rej:image" translatesAutoresizingMaskIntoConstraints="NO" id="0xn-SS-Rej">
+                                                <rect key="frame" x="8" y="12" width="30" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tji-Ai-m1c">
+                                                <rect key="frame" x="110.00000000000001" y="8.9999999999999982" width="49.666666666666664" height="31.333333333333332"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JV9-KE-sL3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tM5-Ib-I1p">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bSD-sF-hk3">
+                                                <rect key="frame" x="287" y="8.9999999999999982" width="52" height="31.333333333333332"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="64.0609" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbi-g3-E8E">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.01561" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nri-9I-0nc">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="52" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-JS-iah">
+                                        <rect key="frame" x="0.0" y="100" width="350" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ySZ-vW-RO9">
+                                                <rect key="frame" x="46" y="1" width="56.666666666666664" height="39.666666666666664"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 EUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUJ-4P-iTD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Inverse:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUw-qY-3om">
+                                                        <rect key="frame" x="0.0" y="20.333333333333336" width="56.666666666666664" height="19.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YW4-0s-Wu3">
+                                                <rect key="frame" x="109.99999999999999" y="8" width="51.333333333333336" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.19116" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4v-cU-8E1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.83952" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xW-EQ-K5Q">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="51.333333333333336" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Afp-43-ODM">
+                                                <rect key="frame" x="169" y="8" width="49.666666666666664" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVo-iA-Ufb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfc-Ht-wOl">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0ZJ-Tb-qfi">
+                                                <rect key="frame" x="230" y="8" width="49.333333333333336" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.90021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7M-iq-4Gc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.333333333333336" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.11085" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lt1-8i-c4F">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.333333333333336" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="euroFlag" translatesAutoresizingMaskIntoConstraints="NO" id="xqQ-Y9-b5P">
+                                                <rect key="frame" x="8" y="12" width="30" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1db-wb-mFR">
+                                                <rect key="frame" x="290" y="8" width="52" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.90004" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0b-gT-ceK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="52" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.11107" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPa-CS-ZGI">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="52" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Szw-6a-M3T">
+                                        <rect key="frame" x="0.0" y="150" width="350" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VIN-cD-9px">
+                                                <rect key="frame" x="46" y="1" width="56.666666666666664" height="39.666666666666657"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 GBP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQO-X5-ly0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Inverse:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CH-42-mQR">
+                                                        <rect key="frame" x="0.0" y="20.333333333333336" width="56.666666666666664" height="19.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IaH-as-UnV">
+                                                <rect key="frame" x="110.00000000000001" y="8" width="50.666666666666664" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.32400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRg-LI-184">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.75529" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj4-XV-KMt">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="50.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0fZ-dy-VR8">
+                                                <rect key="frame" x="168" y="8" width="51.666666666666664" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.11121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOE-rs-DBV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.89992" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJG-96-gc0">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="51.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6ha-ai-AOv">
+                                                <rect key="frame" x="230" y="8" width="49.666666666666664" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRy-hs-AfZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1.00000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qI-dm-wSd">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unitedFlag" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-te-0XE">
+                                                <rect key="frame" x="8" y="12" width="30" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l36-vt-45X">
+                                                <rect key="frame" x="291" y="8" width="51" height="31.333333333333329"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="84.7987" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgd-3a-NyS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.01179" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjv-0Q-MJN">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="51" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiD-dd-0ey">
+                                        <rect key="frame" x="0.0" y="200" width="350" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZBM-wL-U8Z">
+                                                <rect key="frame" x="46" y="1" width="56.666666666666664" height="39.666666666666657"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 AMD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2O-Q2-5br">
+                                                        <rect key="frame" x="0.0" y="0.0" width="56.666666666666664" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Inverse:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnH-GX-RZz">
+                                                        <rect key="frame" x="0.0" y="20.333333333333336" width="56.666666666666664" height="19.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gwg-6m-ObJ">
+                                                <rect key="frame" x="109.99999999999999" y="8" width="51.333333333333336" height="31.333333333333343"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.00209" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjt-Ov-NLk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51.333333333333336" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="478.234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCH-d8-KiA">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="51.333333333333336" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dss-Nu-UXQ">
+                                                <rect key="frame" x="169" y="8" width="49.333333333333336" height="31.333333333333343"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.00176" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUM-s6-cEe">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.333333333333336" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="569.716" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmf-cT-MgW">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.333333333333336" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wV5-tJ-HhR">
+                                                <rect key="frame" x="230" y="8" width="49.666666666666664" height="31.333333333333343"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.00158" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qo6-rO-8Ul">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="632.881" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL9-oY-ZQW">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="49.666666666666664" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="armenFlag" translatesAutoresizingMaskIntoConstraints="NO" id="NS3-cw-DHT">
+                                                <rect key="frame" x="8" y="12" width="30" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MCM-QA-UWM">
+                                                <rect key="frame" x="292" y="8" width="50" height="31.333333333333343"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0.13404" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4o-Ak-iWN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="7.46028" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FT0-Ja-epX">
+                                                        <rect key="frame" x="0.0" y="15.666666666666668" width="50" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -177,4 +581,1464 @@
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="amerFlag" width="200" height="105"/>
+        <image name="armenFlag" width="200" height="100"/>
+        <image name="euroFlag" width="600" height="400"/>
+        <image name="imageView:0xn-SS-Rej:image" width="200" height="105">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
+GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
+c1dOU0NvbG9ygAKADRIgwAAAgAOAC1p7MjAwLCAxMDV90hUKFhhaTlMub2JqZWN0c6EXgASACtIVChod
+ohscgAWABoAJEADSIAohIl8QFE5TVElGRlJlcHJlc2VudGF0aW9ugAeACE8SAAFQvk1NACoAAUgoLitb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/0RBbv8uK1z/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8xLl7/QT9s
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0VCb/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9FQm//Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/QT9s/zEuXv8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rXP9EQW7/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/k5Kt/1RRe/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/15bg/+GhKP/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/80MWH/uLjK/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/7i4yv80MWH/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+GhKP/XluD
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/VFF7/5OSrf8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8xLl7/cW+S/3l3mP/t7fL/wsDQ/3l3mP9dWoP/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/19dhP95d5j/ycfW/+fn7f95d5j/b2yR/y8sXf8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9LSnX/eXeY/6Ohuv/+/v7/gn+f/3d1l/85NmX/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/OTZl/3d1l/+Cf5///v7+/6Ohuv95d5j/S0p1/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y8sXf9vbJH/eXeY/+bm7P/Jx9b/eXeY/19dhP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/XVqD
+/3l3mP/CwND/7+/y/3l3mP9xb5L/MS5e/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/9KSHP/397n
+//z8/v//////p6a9/zUyYv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NzVk/7CwxP///////Pz+
+/9fX4f9GQ2//Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y8sXP+HhqT//v7+//n5+v/19ff/X12E
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/X12E//X19//5+fr//v7+/4eGpP8vLFz/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0ZDb//X1+H//Pz8//////+wsMT/NzVk/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/81MmL/p6a9///////8/Pz/3d3m/0pIc/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/+Pjqn/+vr7//////9OTHb/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Wld///7+/v/8/Pz/hYOj/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/zIvXv/29vn/+fn6/8TE0/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/xMTT
+//n5+v/29vn/Mi9e/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/4WDo//8/Pz/////
+/1pXf/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9OTHb///////v7/P+Pjqn/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/6Wku/9FQm//ZWOJ/4B+nv8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Jh6b/X12E/0pHc/+goLf/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/X1yE/4WDo/83NWT/qKi+/zk2Zf8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/zk2Zf+oqL7/NzVk/4aEo/9fXIT/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/oKC3/0pHc/9fXYT/iYem/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/4B+nv9lY4n/RUJv/6Wku/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1z/MS5e
+/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rW/9lY4n/Litb/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8uK1v/Y2CH/y4rXP8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Mi9e
+/y4rW/8uK1v/Litb/0hFcf9IRXH/Litb/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/y4rW/8uK1z/Y2CH/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb
+/2Vjif8uK1v/Litb/y4rW/8uK1v/Mi9e/y4rW/8uK1v/MS5e/y4rXP8uK1v/Litb/y4rW/8uK1v/+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NTJi/+fn7f8xLl7/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW//BwND/VFF7/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/iYem/4mHpv8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/1RRe//BwND/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8xLl7/5+ft/zUyYv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/RUJv
+/7W0yP/c3OX//////9nX4v+xsMT/QD5r/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zQxYf+dnLX/y8vZ
+//7+/v/m5uz/v7/P/1hVfv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/fHuc/8TE0//29vn/9vb5
+/8TE0/98e5z/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/1hVfv+/v8//5ubs//7+/v/Ly9n/nZy1
+/zQxYf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9APmv/sbDE/9nX4v//////3Nzl/7W0yP9FQm//Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/QkBt//Dw9P/6+vv/6urv/z88av8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/zMwYP/Ix9X//Pz8//z8/P9UUXv/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/h4Wk//7+/v/+/v7/h4Wk/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/1RRe//8/P7//Pz8/8nH1v8zMGD/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8/PGr/6urv
+//r6+//w8PT/QkBt/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8yMGD/7+/y/8XF1P/n5+3/Lyxc
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/7y7zf/Ny9n/8fD0/1BOeP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Cf5//3Nzl/9zc5v+Cf5//Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/UE54//Hw9P/Ny9n/vLvN/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y8sXP/n5+3/xcXU/+/v8v8yMGD/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8yMGD/Litb/y4rW/8uK1v/Litb
+/01Ldv9SUHr/Litb/1lWf/9HRHH/Litb/y4rW/8uK1v/Litb/zIwYP8uK1v/Litb/y4rW/8yL1//cnCT
+/y4rW/9APmv/YmCH/y4rW/8uK1v/Litb/y4rW/8yMGD/Litb/y4rW/8uK1v/Litb/3Fvkv8yMGD/MjBg
+/3Fvkv8uK1v/Litb/y4rW/8uK1v/MjBg/y4rW/8uK1v/Litb/y4rW/9iYIf/QD5r/y4rW/9ycJP/Mi9f
+/y4rW/8uK1v/Litb/zIwYP8uK1v/Litb/y4rW/8uK1v/R0Rx/1lWf/8uK1v/UlB6/01Ldv8uK1v/Litb
+/y4rW/8uK1v/MjBg/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/3p4mv9APmv/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9JR3L/b2yR
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litc/5COq/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Qjqv/Litc/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/b2yR/0pHc/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0A+a/96eJr/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Lyxd/zg1ZP84NWT/ycfW/4eFpP84NWT/NzRj/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/83NGP/ODVk/5COq/+7usv/ODVk/zg1ZP8vLFz/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NDFh
+/zg1ZP9dWoP/8fD0/zo3Zv84NWT/Mi9e/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zIvXv84NWT/Ojdm
+//Hw9P9dWoP/ODVk/zQxYf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8vLFz/ODVk/zg1ZP+7usv/kY+s
+/zg1ZP83NGP/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zc0Y/84NWT/h4Wk/8nH1v84NWT/ODVk
+/y8sXf8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8vLFz/h4ak//v7/P/+/v7//////+bm7P9bWYL/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/2Bdhf/q6u/////////////5+fv/fnyd/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9GQ3D/z8/b///////8/P7//////6akvP80MWH/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/NDFh/6akvP///////v7+///////Pz9v/RkNw/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/9/fZ7/+fn7////////////6urv/2Bdhf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/W1mC
+/+bm7P///////v7+//v7/P+HhqT/Lyxc/y4rW/8uK1v/Litb/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/y4rW/8uK1v/Litb/y4rW/8uK1v/kY+s
+////////////SUZy/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/1VSe///////////
+/4eFpP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8yL17/8vL2//7+/v/ExNP/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/8TE0//+/v7/8vL2/zIvXv8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+HhaT///////////9VUnv/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/SUZy//7+/v//////kY+s/y4rW/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/+0s8f/fHqb/6elvP95d5j/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/hoSj/5+dtv+DgqH/q6q//y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/05Mdv/Ix9X/a2iN/9PS3f8wLV3/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8wLV3/09Ld
+/2tojf/Ix9X/Tkx2/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6uqv/+DgqH/n522
+/4aEo/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/95d5j/p6W8/3x6m/+0s8f/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litc/0ZDb/8uK1v/Litb/0ZDcP8uK1v/Litb
+/y4rW/8uK1v/Q0Bu/y4rW/8uK1v/Litb/y4rW/9HRHH/Litb/y4rW/9HRHH/Litb/y4rW/8uK1v/Litb
+/0JAbf8uK1v/Litb/y4rW/8uK1v/REFu/y8sXf8uK1v/OTdl/zk3Zf8uK1v/Litb/y4rW/84NWT/ODVk
+/y4rW/8uK1v/Litb/zk3Zf85N2X/Litb/y8sXf9EQW7/Litb/y4rW/8uK1v/Litb/0JAbf8uK1v/Litb
+/y4rW/8uK1v/R0Rx/y4rW/8uK1v/R0Rx/y4rW/8uK1v/Litb/y4rW/9DQG7/Litb/y4rW/8uK1v/Litb
+/0ZDcP8uK1v/Litb/0ZDb/8uK1z/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rXP/BwND/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/pqS8/0A+a/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/3Jwk/9ycJP/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/9APmv/pqS8/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/8HA0P8uK1z/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0VCb/95d5j/lZSv//////+Ni6j/eXeY
+/0A+a/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/80MWH/dXOV/3t5m//39/n/sLDE/3l3mP9TUHr/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/2hmi/95d5j/2dfi/9nX4v95d5j/aGaL/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9TUHr/eXeY/6+vw//39/n/e3mb/3Vzlf80MWH/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/QD5r/3l3mP+Ni6j//////5WUr/95d5j/RUJv/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/3h2mP/7+/z/9/f5//r6+/9wbZL/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9VUnv/7Ozx
+//r6+///////lpWw/zIvXv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Pjtp/8LB0f/+/v7//v7+
+/8LB0f8+O2n/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zIvXv+WlbD///////n5+//s7PH/VVJ7
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/cG2S//v7/P/39/n//Pz8/3h2mP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/+no7f/5+fr/29vk/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+rqb//+vr7//7+/v8/PGr/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/bWqQ//z8/v/8/P7/bWqQ/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/z88av/+/v7/+vr7/6upv/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/3Nzl
+//n5+v/p6O3/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9PTXf/lJKu/zYzYv+dnLX/RUJv
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Lyxd/62swf8+O2n/dXOV/3JxlP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Ukq7/U1B6/1NQev+Ukq7/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/cnGU/3Vzlf8+O2n/razB/y8sXf8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/0VCb/+dnLX/NjNi/5SSrv9PTXf/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW//pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9dWoP/NDFh/y4rW/8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/OTdl/1VTfP8uK1v/Litb/y4rW/8wLV3/Litc
+/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rW/9kYYj/Litb/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8uK1v/ZGGI/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1z/MC1d
+/y4rW/8uK1v/Litb/1VTfP85N2X/Litb/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/y4rW/80MWH/XVqD/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/6mpvv9oZYv/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9ycJP/nJq0
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/QD5r/9fX4f8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW//X1+H/QD5r/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/nJq0/3Jwk/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/2hli/+pqb7/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/MS5e/5COq/+/v8///Pz8/+rq7/+8u83/ZmOJ/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/9saY3/vLvN/+zs8f/6+vv/vb3O/4mHpv8vLF3/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Tkx2
+/7a1yf/c3Ob//////8rK1/+korr/OTZl/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zk2Zf+korr/ysrX
+///////c3Ob/trXJ/05Mdv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8vLF3/iYem/729zv/6+vv/7e3y
+/7y7zf9saY3/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/2Zjif+8u83/6+vw//z8/P+/v8//kI6r
+/zEuXv8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/MS5e/7W0yP/8/P7//v7+/2lnjP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/90cpX//v7+//7+/v+pqb7/Lyxd/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Tk13//n5+v/7+/z/3d3m/zk3Zf8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/zk3Zf/d3eb/+/v8//n5+v9OTXf/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8vLF3/q6m///z8/v/+/v7/dHKV/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/2lnjP/+/v7//Pz+/7W0yP8xLl7/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/pKK6
+/9PS3f/p6O//YmCH/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/29skf/m5uz/1tbh
+/5mYsf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/88OWj/9PT2/8fG1f/V1eD/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/9XV4P/Ix9X/9PT2/zw5aP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+ZmLH/19fh/+bm7P9vbJH/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/YmCH/+no7//R0d3/pKK6/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Litb/y4rXP91c5X/Litc/zo3Zv9oZov/Litb/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/y4rW/8uK1v/bGqP/zc1ZP8vLF3/dXOV/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb
+/1dUff9KR3P/Litb/2Vjif89Omj/Litb/y4rW/8uK1v/Lyxd/y8sXf8uK1v/Litb/y4rW/89Omj/ZWOJ
+/y4rW/9KR3P/V1R9/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb/3Vzlf8vLF3/NzVk
+/2xqj/8uK1v/Litb/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rW/9oZov/Ojdm/y4rXP91c5X/Litc
+/y4rW/8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/kI6r/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/4WDo/80MWH/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9bWYL/W1mC
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NDFh/4WDo/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Qjqv/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8zMGD/ODVk/0tKdf/6+vv/REFu/zg1ZP8yMGD/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/MC1d/zg1ZP84NWT/3Nzl/3Btkv84NWT/NTJi/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/84NWT/ODVk/6elvP+mpLz/ODVk/zg1ZP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NTJi
+/zg1ZP9wbZL/3Nzl/zg1ZP84NWT/MC1d/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zIwYP84NWT/REFu
+//r6+/9LSnX/ODVk/zMwYP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/z88av/CwND///////z8/v//////urjK
+/zs4Z/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8yL17/l5Ww//7+/v/+/v7//////9rZ5P9OTXf/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/3Btkv/y8vb////////////y8vb/cG2S/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9OTXf/2tnk///////+/v7//v7+/5eVsP8yL17/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Ozhn/7q4yv///////v7+///////CwND/Pzxq/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y8sXP/k4+v//v7+/9nY4v8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/rKvB
+///////8/Pz/Ojdm/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/2pnjP//////////
+/2pnjP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/86N2b/+/v8//////+rqr//Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/9nY4v/+/v7/5OPr/y8sXP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Pjtp/9bW4f9vbpH/2dji/zc0Y/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW//Ix9X/enia/729zv9lY4n/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/l5Ww/5aVsP+WlbD/l5Ww/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/2Vjif+9vc7/enia/8jH1f8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/83NGP/2dji
+/29ukf/W1uH/Pjtp/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/QkBt/y4rW/8uK1v/Litb/y4rW/9CQG3/NDFh/y4rW/83NGP/QD1q
+/y4rW/8uK1v/Litb/zAtXf9APWr/Litb/y4rW/8uK1v/Mi9f/0VCb/8uK1v/Litc/0lHcv8uK1v/Litb
+/y4rW/8uK1v/QkBt/y4rW/8uK1v/Litb/y4rW/9KR3P/Litb/y4rW/9KR3P/Litb/y4rW/8uK1v/Litb
+/0JAbf8uK1v/Litb/y4rW/8uK1v/SUdy/y4rXP8uK1v/RUJv/zIvX/8uK1v/Litb/y4rW/9APWr/MC1d
+/y4rW/8uK1v/Litb/0A9av83NGP/Litb/zQxYf9CQG3/Litb/y4rW/8uK1v/Litb/0JAbf8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Ska3/U1B6/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/XVqD/4WDo/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zQxYf+2tcn/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/trXJ/zQxYf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/4WDo/9dWoP/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/9TUHr/kpGt/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/zEuXv9sao//cnGU
+/+zs8f+9vc7/cnGU/1pXf/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/XFmC/3JxlP/FxdT/5ePr
+/3JxlP9qZ4z/Lyxd/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0pIc/9ycZT/nZy1//z8/v97eZv/cnCT
+/zk2Zf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/85NmX/cnCT/3t5m//8/P7/nZy1/3JxlP9KSHP/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Lyxd/2pnjP9ycZT/5eXs/8XE1P9ycZT/XFmC/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9aV3//cnGU/76+z//s7PH/cnGU/2xqj/8xLl7/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/01Ldv/g4Of//Pz+//////+rqr//NzVk/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/85N2X/s7LF///////8/P7/2dfi/0lGcv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Lyxd
+/4uKp//+/v7/+fn6//X19/9jYIf/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9jYIf/9fX3
+//n5+v/+/v7/i4qn/y8sXf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/SUZy/9nX4v/8/Pz/////
+/7Oyxf85N2X/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zc1ZP+rqr////////z8/P/g4Of/TUt2
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/46Nqf/7+/z//////0xKdf8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9YVn7//v7+//z8/P+Eg6H/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Mi9e//X19//5+fr/w8LT/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW//DwtP/+fn6//X19/8yL17/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/hIOh//z8/P//////WFZ+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/0xKdf//////+/v8/46Nqf8uK1v/Litb/y4rW/8uK1v/Litb/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/y4rW/8uK1v/Litb/y4rW/8uK1v/paS7
+/0VCb/9lY4n/f32e/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/4iHpf9fXYT/Skdz
+/5+et/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9fXIT/hYOj/zc1ZP+npr3/ODVk
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/ODVk/6emvf83NWT/hoSj/19chP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+fnrf/Skdz/19dhP+Ih6X/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/f32e/2Vjif9FQm//paS7/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Litb/y4rXP8xLl7/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb/2ViiP8uK1v/Litb
+/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rW/9jYIf/Litc/y4rW/8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/SEVx/0hFcf8uK1v/Litb/y4rW/8yL17/Litb
+/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rXP9jYIf/Litb/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8uK1v/ZWKI/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8xLl7/Litc
+/y4rW/8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/80MWH/5eXs/zAtXf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/76+z/9TUHr/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+HhqT/h4ak
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/U1B6/76+z/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zAtXf/l5ez/NDFh/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9FQm//sbDE/9fX4f//////09Ld/66swv9APmv/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/NDFh/5uZs//FxNT//v7+/+Li6v+6ucv/WFV+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/98epv/vbvO//X19//19ff/vbvO/3x6m/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/WFV+
+/7q5y//i4ur//v7+/8XE1P+bmbP/NDFh/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0A+a/+urML/09Ld
+///////W1uH/sbDE/0VCb/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9GQ2//8fH1//r6+//s7PH/QT9s
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NDFh/83L2f/8/Pz//Pz+/1lWf/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Miqj//v7+//7+/v+Miqj/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/WVZ///z8/v/7+/z/zcza/zQxYf8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/0E/bP/s7PH/+vr7//Hx9f9GQ2//Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW///////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/zIvX//w8PT/zcza/+no7f8vLFz/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/urnL
+/9TT3//09Pb/T013/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/4GAn//i4ur/4uLq
+/4GAn/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9PTXf/9PT2/9TT3/+6ucv/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Lyxc/+fn7f/NzNr/8fD0/zIvX/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/zIvXv8uK1v/Litb/y4rW/8uK1v/Tk13/1dUff8uK1v/X1yE/0hFcf8uK1v/Litb/y4rW/8uK1v/Mi9e
+/y4rW/8uK1v/Litb/zIvX/93dZf/Litb/0NAbv9lYoj/Litb/y4rW/8uK1v/Litb/zIvXv8uK1v/Litb
+/y4rW/8uK1v/dXOV/zQxYf80MWH/dXOV/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb
+/2ViiP9DQG7/Litb/3d1l/8yL1//Litb/y4rW/8uK1v/Mi9e/y4rW/8uK1v/Litb/y4rW/9IRXH/X1yE
+/y4rW/9XVH3/Tk13/y4rW/8uK1v/Litb/y4rW/8yL17/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/eXeY/0A9av8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/0lGcv9ua5D/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/jYuo/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/42LqP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9ua5D/SUZy
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/QD1q/3l3mP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW//LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf8uK1v/Litb/y4rW/8vLF3/ODVk/zg1ZP/Ix9X/hoSj/zg1ZP83NGP/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/zc0Y/84NWT/j46p/7q5y/84NWT/ODVk/y8sXP8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/80MWH/ODVk/1xZgv/w8PT/Ojdm/zg1ZP8yL17/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Mi9e/zg1ZP86N2b/8PD0/1xZgv84NWT/NDFh/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y8sXP84NWT/ODVk/7q5y/+Qjqv/ODVk/zc0Y/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/NzRj
+/zg1ZP+GhKP/yMfV/zg1ZP84NWT/Lyxd/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y8sXP+HhqT/+/v8
+//7+/v//////5ubs/1tZgv8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/YF2F/+rq7///////////
+//n5+/9+fJ3/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0ZDcP/Pz9v///////z8/v//////pqS8
+/zQxYf8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/80MWH/pqS8///////+/v7//////8/P2/9GQ3D/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/399nv/5+fv////////////q6u//YF2F/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/9bWYL/5ubs///////+/v7/+/v8/4eGpP8vLFz/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/+Ojan///////7+/v9HRHH/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/U1B6////////////hIOh/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/zIvXv/x8fX//v7+/8LB0f8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/wsHR
+//7+/v/x8fX/Mi9e/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/4SDof//////////
+/1NQev8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9HRHH//v7+//////+Ojan/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/7Szx/+DgqH/rqzC/3d1l/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/+Eg6H/p6W8/4qJp/+rqr//Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/TEp1/83M2v9ycJP/1dPf/y8sXf8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y8sXf/V09//cnCT/83M2v9MSnX/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/q6q//4qJp/+npbz/hIOh/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/3d1l/+urML/g4Kh/7Szx/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/y4rW/8uK1v/Litb/y4rW/8uK1z/SUdy
+/y4rW/8uK1v/Skdz/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/0pHc/8uK1v/Litb
+/0pHc/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9GQ2//MS5e/y4rW/88OWj/Ojdm
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Ojdm/zw5aP8uK1v/MS5e/0ZDb/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/9KR3P/Litb/y4rW/9KR3P/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Skdz/y4rW/8uK1v/SUdy/y4rXP8uK1v/Litb/y4rW/8uK1v/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb
+/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/y4rW/8uK1v/Litb/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps
+/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps
+/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps
+/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps
+/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps
+/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/cEps/3BKbP9wSmz/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB
+/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/y3SB/8t0gf/LdIH/////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk
+/9qapP/amqT/2pqk/9qapP/amqT/2pqk/9qapP/amqT/2pqk/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g/7xPYP+8T2D/vE9g
+/7xPYP+8T2D/vE9g/7xPYP//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI
+/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/6cLI/+nCyP/pwsj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C
+/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C/64vQv+uL0L/ri9C////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v//jt7//47e//+O3v
+//jt7//47e//+O3v//jt7/+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo
+/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/oBAo/6AQKP+gECj/AA4B
+AAADAAAAAQDIAAABAQADAAAAAQBpAAABAgADAAAABAABSNYBAwADAAAAAQABAAABBgADAAAAAQACAAAB
+EQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQBpAAABFwAEAAAAAQABSCAB
+HAADAAAAAQABAAABUgADAAAAAQABAAABUwADAAAABAABSN6HcwAHAAAH2AABSOYAAAAAAAgACAAIAAgA
+AQABAAEAAQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BBUFBMAAAAAGFwcGwA
+AAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcUAAAAOHd0cHQA
+AAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNoYWQA
+AAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2Zp
+bGUAAAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAACgAAAGEZGFESwAAAC4A
+AAGsY2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoAAAJIZnJGVQAAACgA
+AAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAAAB4A
+AAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYA
+AALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgA
+AAREZXNFUwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgA
+AATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8A
+YgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUA
+cwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA
+IABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkA
+cgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkA
+bAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAA
+cgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAA
+cgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIA
+RwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8A
+ZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIA
+LQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCC
+LAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAA
+ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIA
+LQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUA
+bAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkA
+aQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMA
+YQBsAG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIA
+RwBCBkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIA
+RwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJp
+Z2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAA
+AAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAA
+AQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2Vz
+XxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJyYXmiLCrS
+JSYvMF5OU011dGFibGVBcnJheaMvLCrTMjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM
+0iUmODlXTlNDb2xvcqI4KtIlJjs8V05TSW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BUcm9vdIAB
+AAAACAAAABEAAAAaAAAAIwAAAC0AAAAyAAAANwAAAEYAAABMAAAAVwAAAF4AAABlAAAAcgAAAHkAAACB
+AAAAgwAAAIUAAACKAAAAjAAAAI4AAACZAAAAngAAAKkAAACrAAAArQAAAK8AAAC0AAAAtwAAALkAAAC7
+AAAAvQAAAL8AAADEAAAA2wAAAN0AAADfAAFRowABUagAAVGzAAFRvAABUc8AAVHTAAFR3gABUecAAVHs
+AAFR9AABUfcAAVH8AAFSCwABUg8AAVIWAAFSHgABUisAAVIwAAFSMgABUjQAAVI5AAFSQQABUkQAAVJJ
+AAFSUQABUlQAAVJmAAFSaQABUm4AAAAAAAAEAQAAAAAAAABBAAAAAAAAAAAAAAAAAAFScA
+</mutableData>
+        </image>
+        <image name="indFlag" width="200" height="133"/>
+        <image name="unitedFlag" width="200" height="100"/>
+    </resources>
 </document>
