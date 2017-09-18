@@ -31,12 +31,21 @@ class ViewController: UIViewController {
         
         //Set up Rows
         let amerColImg = UIImageView(image: #imageLiteral(resourceName: "american-flag-small"))
+        amerColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let amerFlgView = UIView(frame: CGRect(x:0, y:27, width:30, height:18.5))
+        amerFlgView.addSubview(amerColImg)
         
         
         
-        let USD = UILabel(frame: CGRect(x:115, y:27, width:30, height:18.5))
+        let USD = UILabel(frame: CGRect(x:0, y:37, width:30, height:18.5))
         USD.textColor = UIColor.black
         USD.text = "USD"
+        let colTitle = UIStackView(arrangedSubviews: [amerFlgView, USD])
+        colTitle.axis = .vertical
+        colTitle.distribution = .equalSpacing
+        colTitle.spacing = 0.0
+        colTitle.translatesAutoresizingMaskIntoConstraints = false
+        
         let usLabel1 = UILabel(frame: CGRect(x:115, y:47, width:60, height:18.5))
         let usLabel2 = UILabel(frame: CGRect(x:115, y:67, width:60, height:18.5))
         let usLabel3 = UILabel(frame: CGRect(x:115, y:87, width:60, height:18.5))
@@ -50,38 +59,76 @@ class ViewController: UIViewController {
         usLabel4.text = "1.00000"
         usLabel5.text = "1.00000"
         usLabel6.text = "1.00000"
+        
+
+ 
        
-        let usCol = UIStackView(arrangedSubviews: [ USD, usLabel1, usLabel2, usLabel3, usLabel4, usLabel5, usLabel6])
+        let usCol = UIStackView(arrangedSubviews: [colTitle, usLabel1, usLabel2, usLabel3, usLabel4, usLabel5, usLabel6])
         
         
         usCol.axis = .vertical
-        usCol.distribution = .equalSpacing
-        usCol.spacing = 5.0
+        usCol.distribution = .equalCentering
+        usCol.spacing = 0.0
         usCol.translatesAutoresizingMaskIntoConstraints = false
         
         self.view.addSubview(usCol)
-        self.view.addSubview(amerColImg)
+        
+        //set up flag col
+        let ausColImg = UIImageView(image: #imageLiteral(resourceName: "australian-flag-small"))
+        ausColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let ausFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
+        ausFlgView.addSubview(ausColImg)
+        
+        let armenColImg = UIImageView(image: #imageLiteral(resourceName: "armenian-flag-small"))
+        armenColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let armenFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
+        armenFlgView.addSubview(armenColImg)
+        
+        let indColImg = UIImageView(image: #imageLiteral(resourceName: "indian-flag-small"))
+        indColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let indFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
+        indFlgView.addSubview(indColImg)
+        
+        let flagCol = UIStackView(arrangedSubviews: [ausFlgView, armenFlgView, indFlgView])
+        flagCol.axis = .vertical
+        flagCol.distribution = .equalCentering
+        flagCol.spacing = 40.0
+        flagCol.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(flagCol)
+
         
         
-        amerColImg.heightAnchor.constraint(equalToConstant: 18.5)
-        amerColImg.widthAnchor.constraint(equalToConstant: 30)
-        amerColImg.leadingAnchor.constraint(equalTo: usCol.leadingAnchor)
-        xeLiveEx.bottomAnchor.constraint(equalTo: amerColImg.topAnchor, constant: 5)
-        usCol.leadingAnchor.constraint(equalTo: self.view.layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true
-        usCol.topAnchor.constraint(equalTo: amerColImg.bottomAnchor, constant: 20).isActive = true
-        usCol.bottomAnchor.constraint(equalTo: self.view.layoutMarginsGuide.bottomAnchor, constant: 0).isActive = true
-        usCol.trailingAnchor.constraint(equalTo: self.view.layoutMarginsGuide.trailingAnchor, constant: 0).isActive = true
+        
+        
+        amerColImg.leadingAnchor.constraint(equalTo: amerFlgView.leadingAnchor, constant: 0).isActive = true
+        amerColImg.bottomAnchor.constraint(equalTo: amerFlgView.bottomAnchor, constant: 0).isActive = true
+        
+        armenColImg.leadingAnchor.constraint(equalTo: armenFlgView.leadingAnchor, constant: 0).isActive = true
+        armenColImg.bottomAnchor.constraint(equalTo: armenFlgView.bottomAnchor, constant: 0).isActive = true
+        
+        indColImg.leadingAnchor.constraint(equalTo: indFlgView.leadingAnchor, constant: 0).isActive = true
+        indColImg.bottomAnchor.constraint(equalTo: indFlgView.bottomAnchor, constant: 0).isActive = true
+        
+        ausColImg.leadingAnchor.constraint(equalTo: ausFlgView.leadingAnchor, constant: 0).isActive = true
+        ausColImg.bottomAnchor.constraint(equalTo: ausFlgView.bottomAnchor, constant: 0).isActive = true
+        
+        flagCol.topAnchor.constraint(equalTo: usCol.topAnchor , constant: 57).isActive = true
+        flagCol.widthAnchor.constraint(equalTo: usCol.widthAnchor, constant: 0.0).isActive = true
+        flagCol.leadingAnchor.constraint(equalTo: self.view.layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true
+        flagCol.heightAnchor.constraint(equalToConstant: 150.0).isActive = true
+        
+        
+        usCol.leadingAnchor.constraint(equalTo: flagCol.trailingAnchor, constant: 0).isActive = true
+        usCol.topAnchor.constraint(equalTo: xeLiveEx.bottomAnchor, constant: 20).isActive = true
+        usCol.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
         
         
         
         
         
-//        let ausCol = UIImageView(image: #imageLiteral(resourceName: "australian-flag-small"))
-//        
-//        let armenCol = UIImageView(image: #imageLiteral(resourceName: "armenian-flag-small"))
-//        let indCol = UIImageView(image: #imageLiteral(resourceName: "indian-flag-small"))
-//        
-//        
+        
+
+
 //        let AUS = UILabel(frame: CGRect(x:174, y:27, width:30, height:15.5))
 //        let AMD = UILabel(frame: CGRect(x:234, y:27, width:30, height:15.5))
 //        let INR = UILabel(frame: CGRect(x:295, y:27, width:30, height:15.5))
