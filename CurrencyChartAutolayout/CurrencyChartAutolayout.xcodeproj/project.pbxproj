@@ -301,6 +301,7 @@
 				D8B515E41F6F504900D68A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

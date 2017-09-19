@@ -67,60 +67,173 @@ class ViewController: UIViewController {
         
         
         usCol.axis = .vertical
-        usCol.distribution = .equalCentering
-        usCol.spacing = 0.0
+        usCol.spacing = 15.0
         usCol.translatesAutoresizingMaskIntoConstraints = false
+
         
-        self.view.addSubview(usCol)
+        // set up british col
+        let britColImg = UIImageView(image: #imageLiteral(resourceName: "british-flag-small"))
+        britColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let britFlgView = UIView(frame: CGRect(x:0, y:27, width:30, height:18.5))
+        britFlgView.addSubview(britColImg)
+        
+        
+        
+        let GBP = UILabel(frame: CGRect(x:0, y:37, width:30, height:18.5))
+        GBP.textColor = UIColor.black
+        GBP.text = "GBP"
+        let colBritTitle = UIStackView(arrangedSubviews: [britFlgView, GBP])
+        colBritTitle.axis = .vertical
+        colBritTitle.distribution = .equalSpacing
+        colBritTitle.spacing = 20.0
+        colBritTitle.translatesAutoresizingMaskIntoConstraints = false
+        
+        let britLabel1 = UILabel(frame: CGRect(x:115, y:47, width:60, height:18.5))
+        let britLabel2 = UILabel(frame: CGRect(x:115, y:67, width:60, height:18.5))
+        let britLabel3 = UILabel(frame: CGRect(x:115, y:87, width:60, height:18.5))
+        let britLabel4 = UILabel(frame: CGRect(x:115, y:107, width:60, height:18.5))
+        let britLabel5 = UILabel(frame: CGRect(x:115, y:127, width:60, height:18.5))
+        let britLabel6 = UILabel(frame: CGRect(x:115, y:147, width:60, height:18.5))
+        
+        britLabel1.text = "1.00000"
+        britLabel2.text = "1.00000"
+        britLabel3.text = "1.00000"
+        britLabel4.text = "1.00000"
+        britLabel5.text = "1.00000"
+        britLabel6.text = "1.00000"
+        
+        
+        
+        
+        let britCol = UIStackView(arrangedSubviews: [colBritTitle, britLabel1, britLabel2, britLabel3, britLabel4, britLabel5, britLabel6])
+        
+        
+        britCol.axis = .vertical
+        
+        britCol.spacing = 15.0
+        britCol.translatesAutoresizingMaskIntoConstraints = false
+        
+        // set up armenian col
+        let armenTitColImg = UIImageView(image: #imageLiteral(resourceName: "armenian-flag-small"))
+        armenTitColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        let armenTitFlgView = UIView(frame: CGRect(x:0, y:27, width:30, height:18.5))
+        armenTitFlgView.addSubview(armenTitColImg)
+        
+        
+        
+        let titAMD = UILabel(frame: CGRect(x:0, y:37, width:30, height:18.5))
+        titAMD.textColor = UIColor.black
+        titAMD.text = "AMD"
+        let colArmTitle = UIStackView(arrangedSubviews: [armenTitFlgView, titAMD])
+        colArmTitle.axis = .vertical
+        colArmTitle.distribution = .equalSpacing
+        colArmTitle.spacing = 20.0
+        colArmTitle.translatesAutoresizingMaskIntoConstraints = false
+        
+        let armLabel1 = UILabel(frame: CGRect(x:115, y:47, width:60, height:18.5))
+        let armLabel2 = UILabel(frame: CGRect(x:115, y:67, width:60, height:18.5))
+        let armLabel3 = UILabel(frame: CGRect(x:115, y:87, width:60, height:18.5))
+        let armLabel4 = UILabel(frame: CGRect(x:115, y:107, width:60, height:18.5))
+        let armLabel5 = UILabel(frame: CGRect(x:115, y:127, width:60, height:18.5))
+        let armLabel6 = UILabel(frame: CGRect(x:115, y:147, width:60, height:18.5))
+        
+        armLabel1.text = "1.00000"
+        armLabel2.text = "1.00000"
+        armLabel3.text = "1.00000"
+        armLabel4.text = "1.00000"
+        armLabel5.text = "1.00000"
+        armLabel6.text = "1.00000"
+        
+        
+        
+        
+        let armCol = UIStackView(arrangedSubviews: [colArmTitle, armLabel1, armLabel2, armLabel3, armLabel4, armLabel5, armLabel6])
+        
+        
+        armCol.axis = .vertical
+        
+        armCol.spacing = 15.0
+        armCol.translatesAutoresizingMaskIntoConstraints = false
+        // set up stack of stacks
+        let mainStack = UIStackView(arrangedSubviews: [usCol, britCol, armCol,])
+        mainStack.axis = .horizontal
+        mainStack.distribution = .fillProportionally
+        mainStack.spacing = 0.0
+        mainStack.translatesAutoresizingMaskIntoConstraints = false
+        mainStack.alignment = .leading
+        
+        
+        self.view.addSubview(mainStack)
+        
         
         //set up flag col
         let ausColImg = UIImageView(image: #imageLiteral(resourceName: "australian-flag-small"))
         ausColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let ausFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         ausFlgView.addSubview(ausColImg)
-        let AUS = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        let AUS = UILabel(frame: CGRect(x:30, y:20, width:60, height:18.5))
         AUS.text = "AUS"
         let ausRow = UIStackView(arrangedSubviews: [ausFlgView, AUS])
         ausRow.axis = .horizontal
-        ausRow.distribution = .equalSpacing
+        ausRow.distribution = .fillProportionally
         ausRow.spacing = 0.0
         ausRow.translatesAutoresizingMaskIntoConstraints = false
+        ausRow.alignment = .trailing
         
         
         let armenColImg = UIImageView(image: #imageLiteral(resourceName: "armenian-flag-small"))
         armenColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let armenFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         armenFlgView.addSubview(armenColImg)
-        let AMD = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        let AMD = UILabel(frame: CGRect(x:30, y:20, width:60, height:18.5))
         AMD.text = "AMD"
         let amdRow = UIStackView(arrangedSubviews: [armenFlgView, AMD])
         amdRow.axis = .horizontal
-        amdRow.distribution = .equalSpacing
+        amdRow.distribution = .fillProportionally
         amdRow.spacing = 0.0
         amdRow.translatesAutoresizingMaskIntoConstraints = false
+        amdRow.alignment = .trailing
         
         let indColImg = UIImageView(image: #imageLiteral(resourceName: "indian-flag-small"))
         indColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let indFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         indFlgView.addSubview(indColImg)
-        let INR = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        let INR = UILabel(frame: CGRect(x:30, y:20, width:60, height:18.5))
         INR.text = "INR"
         let indRow = UIStackView(arrangedSubviews: [indFlgView, INR])
         indRow.axis = .horizontal
-        indRow.distribution = .equalSpacing
+        indRow.distribution = .fillProportionally
         indRow.spacing = 0.0
         indRow.translatesAutoresizingMaskIntoConstraints = false
+        indRow.alignment = .trailing
         
         let flagCol = UIStackView(arrangedSubviews: [ausRow, amdRow, indRow])
+        
         flagCol.axis = .vertical
-        flagCol.distribution = .equalCentering
-        flagCol.spacing = 40.0
+        flagCol.spacing = 55
         flagCol.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(flagCol)
-
         
         
+        colTitle.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        colTitle.heightAnchor.constraint(equalToConstant: 37).isActive = true
+        colBritTitle.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        colBritTitle.heightAnchor.constraint(equalToConstant: 37).isActive = true
+        colArmTitle.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        colArmTitle.heightAnchor.constraint(equalToConstant: 37).isActive = true
+     
+        britFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
+        amerFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
+        amerFlgView.heightAnchor.constraint(equalToConstant:18.5).isActive = true
         
+        ausFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
+        ausFlgView.heightAnchor.constraint(equalToConstant:18.5).isActive = true
+        
+        indFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
+        indFlgView.heightAnchor.constraint(equalToConstant:18.5).isActive = true
+        
+        armenFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
+        armenFlgView.heightAnchor.constraint(equalToConstant:18.5).isActive = true
         
         amerColImg.leadingAnchor.constraint(equalTo: amerFlgView.leadingAnchor, constant: 0).isActive = true
         amerColImg.bottomAnchor.constraint(equalTo: amerFlgView.bottomAnchor, constant: 0).isActive = true
@@ -134,27 +247,32 @@ class ViewController: UIViewController {
         ausColImg.leadingAnchor.constraint(equalTo: ausFlgView.leadingAnchor, constant: 0).isActive = true
         ausColImg.bottomAnchor.constraint(equalTo: ausFlgView.bottomAnchor, constant: 0).isActive = true
         
-        flagCol.topAnchor.constraint(equalTo: usCol.topAnchor , constant: 57).isActive = true
-        flagCol.widthAnchor.constraint(equalTo: usCol.widthAnchor, constant: 0.0).isActive = true
+        flagCol.topAnchor.constraint(equalTo: mainStack.topAnchor , constant: 50).isActive = true
+        flagCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
         flagCol.leadingAnchor.constraint(equalTo: self.view.layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true
-        flagCol.heightAnchor.constraint(equalToConstant: 150.0).isActive = true
+        flagCol.heightAnchor.constraint(equalToConstant: 160.0).isActive = true
         
         
-        usCol.leadingAnchor.constraint(equalTo: flagCol.trailingAnchor, constant: 0).isActive = true
-        usCol.topAnchor.constraint(equalTo: xeLiveEx.bottomAnchor, constant: 20).isActive = true
+        
+        mainStack.leadingAnchor.constraint(equalTo: flagCol.trailingAnchor, constant: 0).isActive = true
+        mainStack.topAnchor.constraint(equalTo: xeLiveEx.bottomAnchor, constant: 20).isActive = true
+        mainStack.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
+        mainStack.widthAnchor.constraint(equalToConstant: 320).isActive = true
+        
         usCol.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
-        
-        
+        usCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        britCol.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
+        britCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        armCol.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
+        armCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
+      
         
         
         
         
 
 
-//        let AUS = UILabel(frame: CGRect(x:174, y:27, width:30, height:15.5))
-//        let AMD = UILabel(frame: CGRect(x:234, y:27, width:30, height:15.5))
-//        let INR = UILabel(frame: CGRect(x:295, y:27, width:30, height:15.5))
-        
+
        
         
         
@@ -177,12 +295,7 @@ class ViewController: UIViewController {
         
         
     }
-//    func arrayOfLabels(_: ) -> [UILabel] {
-//        var array = [UILabel]()
-//        for i in 1...6 {
-//            var label = UILabel(
-//        }
-//    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
