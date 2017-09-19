@@ -78,18 +78,40 @@ class ViewController: UIViewController {
         ausColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let ausFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         ausFlgView.addSubview(ausColImg)
+        let AUS = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        AUS.text = "AUS"
+        let ausRow = UIStackView(arrangedSubviews: [ausFlgView, AUS])
+        ausRow.axis = .horizontal
+        ausRow.distribution = .equalSpacing
+        ausRow.spacing = 0.0
+        ausRow.translatesAutoresizingMaskIntoConstraints = false
+        
         
         let armenColImg = UIImageView(image: #imageLiteral(resourceName: "armenian-flag-small"))
         armenColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let armenFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         armenFlgView.addSubview(armenColImg)
+        let AMD = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        AMD.text = "AMD"
+        let amdRow = UIStackView(arrangedSubviews: [armenFlgView, AMD])
+        amdRow.axis = .horizontal
+        amdRow.distribution = .equalSpacing
+        amdRow.spacing = 0.0
+        amdRow.translatesAutoresizingMaskIntoConstraints = false
         
         let indColImg = UIImageView(image: #imageLiteral(resourceName: "indian-flag-small"))
         indColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let indFlgView = UIView(frame: CGRect(x:0, y:0, width:30, height:18.5))
         indFlgView.addSubview(indColImg)
+        let INR = UILabel(frame: CGRect(x:30, y:0, width:60, height:18.5))
+        INR.text = "INR"
+        let indRow = UIStackView(arrangedSubviews: [indFlgView, INR])
+        indRow.axis = .horizontal
+        indRow.distribution = .equalSpacing
+        indRow.spacing = 0.0
+        indRow.translatesAutoresizingMaskIntoConstraints = false
         
-        let flagCol = UIStackView(arrangedSubviews: [ausFlgView, armenFlgView, indFlgView])
+        let flagCol = UIStackView(arrangedSubviews: [ausRow, amdRow, indRow])
         flagCol.axis = .vertical
         flagCol.distribution = .equalCentering
         flagCol.spacing = 40.0
