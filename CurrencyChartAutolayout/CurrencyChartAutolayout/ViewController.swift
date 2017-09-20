@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         //Set up Title label
         let xeLiveEx = UILabel(frame: CGRect(x:11, y:20, width:183, height:45))
-        
+        xeLiveEx.translatesAutoresizingMaskIntoConstraints = false
         xeLiveEx.textColor = UIColor.blue
         xeLiveEx.backgroundColor = UIColor.white
         xeLiveEx.text = "XE Live Exchange Rates"
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         xeLiveEx.leadingAnchor.constraint(equalTo: self.view.layoutMarginsGuide.leadingAnchor, constant: 0).isActive = true
         xeLiveEx.heightAnchor.constraint(equalToConstant: 45).isActive = true
-        xeLiveEx.widthAnchor.constraint(equalToConstant: 183).isActive = true
+        xeLiveEx.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 1.0).isActive = true
         xeLiveEx.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor, constant: 10).isActive = true
         
         
@@ -33,6 +33,8 @@ class ViewController: UIViewController {
         // set up us column
         let amerColImg = UIImageView(image: #imageLiteral(resourceName: "american-flag-small"))
         amerColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
+        
+
         let amerFlgView = UIView(frame: CGRect(x:0, y:27, width:30, height:18.5))
         amerFlgView.addSubview(amerColImg)
         
@@ -55,6 +57,7 @@ class ViewController: UIViewController {
         let usLabel6 = UILabel(frame: CGRect(x:115, y:147, width:60, height:18.5))
         
         usLabel1.text = "1.00000"
+        
         usLabel2.text = "1.00000"
         usLabel3.text = "1.00000"
         usLabel4.text = "1.00000"
@@ -131,7 +134,7 @@ class ViewController: UIViewController {
         colArmTitle.spacing = 20.0
         colArmTitle.translatesAutoresizingMaskIntoConstraints = false
         
-        let armLabel1 = UILabel(frame: CGRect(x:115, y:47, width:60, height:18.5))
+        let armLabel1 = self.generateLabels()
         let armLabel2 = UILabel(frame: CGRect(x:115, y:67, width:60, height:18.5))
         let armLabel3 = UILabel(frame: CGRect(x:115, y:87, width:60, height:18.5))
         let armLabel4 = UILabel(frame: CGRect(x:115, y:107, width:60, height:18.5))
@@ -166,7 +169,7 @@ class ViewController: UIViewController {
         
         self.view.addSubview(mainStack)
         
-        
+
         //set up flag col
         let ausColImg = UIImageView(image: #imageLiteral(resourceName: "australian-flag-small"))
         ausColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
@@ -236,6 +239,9 @@ class ViewController: UIViewController {
         armenFlgView.widthAnchor.constraint(equalToConstant:30).isActive = true
         armenFlgView.heightAnchor.constraint(equalToConstant:18.5).isActive = true
         
+        
+        //
+        
         amerColImg.leadingAnchor.constraint(equalTo: amerFlgView.leadingAnchor, constant: 0).isActive = true
         amerColImg.bottomAnchor.constraint(equalTo: amerFlgView.bottomAnchor, constant: 0).isActive = true
         
@@ -266,37 +272,15 @@ class ViewController: UIViewController {
         britCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
         armCol.heightAnchor.constraint(equalToConstant: 250.0).isActive = true
         armCol.widthAnchor.constraint(equalToConstant: 80).isActive = true
-      
-        
-        
-        
-        
-
-
-
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       
-        
-        
-        
-        
-        
         
     }
-
+    
+    private func generateLabels() -> UILabel
+    {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
