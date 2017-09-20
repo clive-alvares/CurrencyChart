@@ -29,7 +29,8 @@ class ViewController: UIViewController {
         xeLiveEx.topAnchor.constraint(equalTo: self.view.layoutMarginsGuide.topAnchor, constant: 10).isActive = true
         
         
-        //Set up Rows
+        //Set up Columns
+        // set up us column
         let amerColImg = UIImageView(image: #imageLiteral(resourceName: "american-flag-small"))
         amerColImg.frame = CGRect(x:0, y:0, width:30, height:18.5)
         let amerFlgView = UIView(frame: CGRect(x:0, y:27, width:30, height:18.5))
