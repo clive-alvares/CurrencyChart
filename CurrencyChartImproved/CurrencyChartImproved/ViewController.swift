@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let flagRow = rowMake(cells: [ChartCell(Currency: "USD")])
+        let flagRow = rowMake(cells: [ChartCell(Currency: "USD"), ChartCell(Currency: "AMD"), ChartCell(Currency: "GBP")])
         let labelRow0 = rowMake(cells: [ChartCell(), ChartCell(), ChartCell()])
         let labelRow1 = rowMake(cells: [ChartCell(), ChartCell(), ChartCell()])
         let labelRow2 = rowMake(cells: [ChartCell(), ChartCell(), ChartCell()])
@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         rowStack.spacing = 2
         rowStack.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(rowStack)
+        
         
         rowStack.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.9).isActive = true
         rowStack.heightAnchor.constraint(equalTo: self.view.heightAnchor, multiplier: 0.5).isActive = true
